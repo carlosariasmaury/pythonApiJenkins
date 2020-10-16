@@ -22,7 +22,7 @@ COPY ["MongoAPI.py", "/app"]
 COPY ["App.py", "/app"]
 
 # Exposing an internal port
-EXPOSE 5001
+EXPOSE 5003
 
 # Step 4 set default commands
 # These are permanent commands i.e even if user will provide come commands those will be considered as argunemts of this command
