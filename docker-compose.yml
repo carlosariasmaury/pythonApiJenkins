@@ -8,4 +8,4 @@ services:
         depends_on: 
             - mymongo_1
         ports:
-            - "5003:5003"
+            - "5001:5001"
